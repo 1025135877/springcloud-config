@@ -6,9 +6,9 @@ spring:
 spring:
     profiles: dev
     application:
-        name: springcloud-config-hzit-dev
+        name: springcloud-config-liu-dev
 ---
 spring:
     profiles: test
     application:
-        name: springcloud-config-hzit-test
+        name: springcloud-config-liu-test
