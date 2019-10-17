@@ -11,13 +11,13 @@ server:
   port: 7004
 eureka:
   instance:
-    hostname: eureka7004.com    #hostnameÎªhostsÎÄ¼şÖĞÓ³ÉäµÄµØÖ·
+    hostname: eureka7004.com    #hostnameä¸ºhostsæ–‡ä»¶ä¸­æ˜ å°„çš„åœ°å€
   client:
-    register-with-eureka: false     #false±íÊ¾²»Ïò×¢²áÖĞĞÄ×¢²á×Ô¼º
-    fetch-registry: false           #false±íÊ¾×Ô¼º¾ÍÊÇ×¢²áÖĞĞÄ£¬Ö°ÔğÊÇÎ¬»¤ÊµÀı£¬²»²Î¼Ó¼ìË÷
+    register-with-eureka: false     #falseè¡¨ç¤ºä¸å‘æ³¨å†Œä¸­å¿ƒæ³¨å†Œè‡ªå·±
+    fetch-registry: false           #falseè¡¨ç¤ºè‡ªå·±å°±æ˜¯æ³¨å†Œä¸­å¿ƒï¼ŒèŒè´£æ˜¯ç»´æŠ¤å®ä¾‹ï¼Œä¸å‚åŠ æ£€ç´¢
     service-url:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/    #ÉèÖÃeureka serverµÄ½»»¥µØÖ·
-      #defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/  #ÆäËûÁ½¸ö·şÎñ¶ËµÄµØÖ·
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/    #è®¾ç½®eureka serverçš„äº¤äº’åœ°å€
+      #defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/  #å…¶ä»–ä¸¤ä¸ªæœåŠ¡ç«¯çš„åœ°å€
   server:
     enable-self-preservation: false
 ---
@@ -29,12 +29,12 @@ server:
   port: 7004
 eureka:
   instance:
-    hostname: eureka7004.com    #hostnameÎªhostsÎÄ¼şÖĞÓ³ÉäµÄµØÖ·
+    hostname: eureka7004.com    #hostnameä¸ºhostsæ–‡ä»¶ä¸­æ˜ å°„çš„åœ°å€
   client:
-    register-with-eureka: false     #false±íÊ¾²»Ïò×¢²áÖĞĞÄ×¢²á×Ô¼º
-    fetch-registry: false           #false±íÊ¾×Ô¼º¾ÍÊÇ×¢²áÖĞĞÄ£¬Ö°ÔğÊÇÎ¬»¤ÊµÀı£¬²»²Î¼Ó¼ìË÷
+    register-with-eureka: false     #falseè¡¨ç¤ºä¸å‘æ³¨å†Œä¸­å¿ƒæ³¨å†Œè‡ªå·±
+    fetch-registry: false           #falseè¡¨ç¤ºè‡ªå·±å°±æ˜¯æ³¨å†Œä¸­å¿ƒï¼ŒèŒè´£æ˜¯ç»´æŠ¤å®ä¾‹ï¼Œä¸å‚åŠ æ£€ç´¢
     service-url:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/    #ÉèÖÃeureka serverµÄ½»»¥µØÖ·
-      #defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/  #ÆäËûÁ½¸ö·şÎñ¶ËµÄµØÖ·
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/    #è®¾ç½®eureka serverçš„äº¤äº’åœ°å€
+      #defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/  #å…¶ä»–ä¸¤ä¸ªæœåŠ¡ç«¯çš„åœ°å€
   server:
     enable-self-preservation: false
